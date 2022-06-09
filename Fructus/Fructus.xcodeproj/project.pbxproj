@@ -21,6 +21,7 @@
 		FA536655284385380074C63D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA536654284385380074C63D /* ContentView.swift */; };
 		FA5366572843853B0074C63D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5366562843853B0074C63D /* Assets.xcassets */; };
 		FA53665A2843853B0074C63D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5366592843853B0074C63D /* Preview Assets.xcassets */; };
+		FA843F112852079E0029F53B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA843F102852079E0029F53B /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		FA536654284385380074C63D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA5366562843853B0074C63D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA5366592843853B0074C63D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA843F102852079E0029F53B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FA536654284385380074C63D /* ContentView.swift */,
 				FA2FD4032846729600E62112 /* OnboardingView.swift */,
 				FA2FD429284F905000E62112 /* FruitDetailView.swift */,
+				FA843F102852079E0029F53B /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				FA2FD4042846729600E62112 /* OnboardingView.swift in Sources */,
 				FA2FD4212847749000E62112 /* FruitModel.swift in Sources */,
 				FA536653284385380074C63D /* FructusApp.swift in Sources */,
+				FA843F112852079E0029F53B /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
