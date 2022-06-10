@@ -24,12 +24,36 @@ struct SettingsView: View {
                         label:
                             SettingsLabelView(labelText: "Fructus", labelImage: "info.circle")
                     ) {
-                        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                        Divider().padding(.vertical, 4)
+                        
+                        HStack(alignment: .center, spacing: 10) {
+                            Image("logo")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 80, height: 80)
+                                .cornerRadius(9)
+                            
+                            Text("Most fruits are naturally low in fat, sodium, and calories. None have cholesterol. Fruits are sources of many essential nutrients, including potassium, dietary fiber, vitamins, and much more.")
+                                .font(.footnote)
+                        }
                     }
                     
                     // MARK: - SECTION 2
                     
                     // MARK: - SECTION 3
+                    
+                    GroupBox(
+                        label: SettingsLabelView(labelText: "Application", labelImage: "apps.iphone")
+                    ) {
+                        SettingsRowView(name: "Developer", content: "Pavel Bohomolnyi")
+                        SettingsRowView(name: "Designer", content: "Robert Petras")
+                        SettingsRowView(name: "Compatibility", content: "iOS 15.5")
+                        SettingsRowView(name: "LinkedIn", linkLabel: "Go to site", linkDestination: "www.linkedin.com/in/pavel-bohomolnyi/")
+                        SettingsRowView(name: "Facebook", linkLabel: "Go to site", linkDestination: "www.facebook.com/p.bogomolny/")
+                        SettingsRowView(name: "GitHub", linkLabel: "Go to site", linkDestination: "github.com/PavelBohomolny")
+                        SettingsRowView(name: "SwiftUI", content: "3.0")
+                        SettingsRowView(name: "Version", content: "1.1.0")
+                    } //: Box
                     
                 } //: VStack
                 .navigationBarTitle(Text("Settings"), displayMode: .large)

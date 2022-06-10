@@ -23,6 +23,7 @@
 		FA53665A2843853B0074C63D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5366592843853B0074C63D /* Preview Assets.xcassets */; };
 		FA843F112852079E0029F53B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA843F102852079E0029F53B /* SettingsView.swift */; };
 		FA843F13285343E20029F53B /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA843F12285343E20029F53B /* SettingsLabelView.swift */; };
+		FA843F1528534C5F0029F53B /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA843F1428534C5F0029F53B /* SettingsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		FA5366592843853B0074C63D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA843F102852079E0029F53B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		FA843F12285343E20029F53B /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		FA843F1428534C5F0029F53B /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsRowView.swift; path = Fructus/App/SettingsRowView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		FA2FD3FE284629EC00E62112 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FA843F1428534C5F0029F53B /* SettingsRowView.swift */,
 				FA2FD3FF28462A7300E62112 /* FruitCardView.swift */,
 				FA2FD40128466DD400E62112 /* StartButtonView.swift */,
 				FA2FD427284F672D00E62112 /* FruitRowView.swift */,
@@ -207,6 +210,7 @@
 			files = (
 				FA2FD424284775FB00E62112 /* FruitData.swift in Sources */,
 				FA2FD42E28509A2E00E62112 /* SourceLinkView.swift in Sources */,
+				FA843F1528534C5F0029F53B /* SettingsRowView.swift in Sources */,
 				FA2FD40028462A7300E62112 /* FruitCardView.swift in Sources */,
 				FA2FD428284F672D00E62112 /* FruitRowView.swift in Sources */,
 				FA2FD4302850A37400E62112 /* FruitNutrientsView.swift in Sources */,
